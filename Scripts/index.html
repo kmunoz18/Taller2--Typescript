@@ -8,22 +8,27 @@
 </head>
 <body>
   <h1>TV Series</h1>
-  <div class="container text-center">
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Name</th>
-          <th>Channel</th>
-          <th>Seasons</th>
-        </tr>
-      </thead>
-      <tbody id="series-table-body">
-      </tbody>
-    </table>
-    <p id="seasons-average holaaaa">Seasons average:</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Channel</th>
+              <th>Seasons</th>
+            </tr>
+          </thead>
+          <tbody id="series-table-body"></tbody>
+        </table>
+        <p id="seasons-average">Seasons average: </p>
       </div>
-      
+      <div class="col-md-4">
+        <div class= "card" id="detalle-serie">
+        </div>
+      </div>
+    </div>
   </div>
   <script type="module" src="./scripts/main.js"></script>
   <script type="module" src="./scripts/serie.js" ></script>
